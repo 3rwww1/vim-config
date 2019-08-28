@@ -44,13 +44,12 @@ MY_VIM="${MY_TOOLS_DIR}/vim-config"
 MY_VIM_REMOTE="https://github.com/3rwww1/vim-config"
 
 bold "Hello, ${USER}!"
-bold "Have you been a good boy and installed the required dependencies? ;)"
-
+bold "Have you been a good n3rd and installed the required dependencies? ;)"
 check_dep "vim"
 
 if [ ! -d "${MY_TOOLS_DIR}" ]
 then
-  work "Creating the tools directory"
+  work "Creating the tools directory..."
   mkdir -p ${MY_TOOLS_DIR}
 fi
 
